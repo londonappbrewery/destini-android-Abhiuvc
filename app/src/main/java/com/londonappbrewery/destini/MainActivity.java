@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
                     mQuestionText.setText(R.string.T6_End);
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
-                    mStoryIndex = 10;
                 }
             }
         });
@@ -59,12 +58,10 @@ public class MainActivity extends AppCompatActivity {
                     mQuestionText.setText(R.string.T4_End);
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
-                    mStoryIndex = 10;
                 }else if(mStoryIndex==3){
                     mQuestionText.setText(R.string.T5_End);
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
-                    mStoryIndex = 10;
                 }
 
             }
